@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #FF4655;
+    --secundary-color: #131723;
+    --terciary-color: #FFFFFF;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--secundary-color);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: var(--primary-color);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    padding: 3vw;
+
+}
+
+.logo-cabecalho {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 40vw;
+    gap: 30px;
+
+}
+
+.vetor {
+    background-color: var(--secundary-color);
+    height: 65px;
+    width: 3px;
+}
+
+.nav-cabecalho {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 35px;
+    padding-left: 15vw;
+}
+
+main {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 3%;
+}
+
+.title {
+    position: relative;
+    grid-column: 1/3;
+    top: 5%;
+    left: 10%;
+}
+
+.title_text {
+    grid: 1/-1;
+    font-family: 'Oswald', sans-serif;
+    color: var(--primary-color);
+    font-size: 9vw;
+}
+
+.title_text_dois {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    color: var(--terciary-color);
+    font-size: 2vw;
+    top: -22%;
+    left: 137%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--secundary-color);
+}
+
+.descricao {
+    position: relative;
+    grid-column: 1/5;
+    font-family: 'Poppins', sans-serif;
+    color: var(--terciary-color);
+    padding: 6%;
+    top: -60%;
+    
+}
+
+.descricao_dois {
+    flex: 1;
+    position: relative;
+    grid-column: 1/5;
+    font-family:'Poppins', sans-serif;
+    color: var(--terciary-color);
+    padding: 6%;
+    top: -30%;
+}
+
+.img-background {
+  /*  flex: 1;
+    grid-column: 1/-1;
+    position: relative;
+    left: 40%;
+    top: -100%;
+    z-index: -1;
+    width: 70vw;
+    height: 45vw;
+    transform: translateX(-50%);*/
+    position: absolute;
+    width: 1401.46px;
+    height: 800.06px;
+    left: 0px;
+    top: 128.94px;
+}
+
+.img-left {
+    position: relative;
+    grid-column: 5/12;
+    top: -80%;
+    left: 50%;
+
+}
+
+.img-killjoy {
+    width: 500px;
+    height: 650px;
+}
