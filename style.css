@@ -24,7 +24,7 @@ header {
     height: 80px;
     display: flex;
     align-items: center;
-    gap: 10%;
+    gap: 2%;
     padding: 3vw;
 
 }
@@ -107,7 +107,8 @@ a {
     font-family:'Poppins', sans-serif;
     color: var(--terciary-color);
     padding: 6%;
-    top: -30%;
+    top: -90%;
+    height: 200px;
 }
 
 .img-background {
@@ -130,12 +131,88 @@ a {
 .img-left {
     position: relative;
     grid-column: 5/12;
-    top: -80%;
-    left: 50%;
+    top: -300%;
+    left: 70%;
+    width: 400px;
+    height: 200px;
+    
 
 }
 
 .img-killjoy {
-    width: 500px;
-    height: 650px;
+    width: 25vw;
+    height: 40vw;
+    transform:translateX(-50%);
+}
+
+.img-left__dois {
+    position: relative;
+    grid-column: 5/12;
+    top: -1800%;
+    left: 100%;
+    width: 100px;
+    height: 40px;
+    z-index: -1;
+}
+
+.img-valorant {
+    width: 5vw;
+    height: 30vw;
+    transform: translateX(-50%);
+}
+
+.main__teste {
+    display: flex;
+    flex-direction: row;
+    grid-column: 1/7;
+    gap: 100px;
+    position: relative;
+    top: -100%;
+    left: -10%;
+}
+
+.teste {
+    flex: 1;
+    position: relative;
+    background-color: white;
+    top: -200%;
+    left: 15%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    
+}
+
+.borda-vermelha {
+    border: 2px solid #FF4655;
+    position: relative;
+    width: 230px;
+    height: 100px;
+    left: 2%;
+    top: -160%;
+    grid-column: 1/7;
+    z-index: 1;
+}
+
+.img-icon {
+    flex: 1;
+    grid-column: 1/3;
+    height: 4.2vw;
+    width: 3.9vw;
+    position: relative;
+    top: -230%;
+    left: 15%;
+    z-index: 1;
+}
+
+.titulo__description__um {
+    padding-top: 10px;
+    font-weight: 800;
+    font-size: .9rem;
+}
+
+.description__um {
+    font-weight: 400;
+    font-size: .6rem;
 }
