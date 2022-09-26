@@ -169,15 +169,17 @@ a {
     position: relative;
     top: -100%;
     left: -10%;
+    height: 10px;
+    width: 100px;
 }
 
 .teste {
     flex: 1;
     position: relative;
     background-color: white;
-    top: -200%;
+    top: -250%;
     left: 15%;
-    height: 100px;
+    height: 10px;
     display: flex;
     flex-direction: row;
     padding-left: 90px;
@@ -187,10 +189,10 @@ a {
 .borda-vermelha {
     border: 2px solid #FF4655;
     position: relative;
-    width: 230px;
+    width: 240px;
     height: 100px;
-    left: 2%;
-    top: -160%;
+    left: 4%;
+    top: -250%;
     grid-column: 1/7;
     z-index: 1;
 }
@@ -211,6 +213,7 @@ a {
     font-weight: 800;
     font-size: .9rem;
 }
+
 
 .description__um {
     font-weight: 400;
