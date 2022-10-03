@@ -174,26 +174,20 @@ a {
 }
 
 .teste {
-    flex: 1;
-    position: relative;
     background-color: white;
-    top: -250%;
-    left: 15%;
-    height: 10px;
     display: flex;
     flex-direction: row;
-    padding-left: 90px;
-    
+
 }
 
 .borda-vermelha {
-    border: 2px solid #FF4655;
-    position: relative;
-    width: 240px;
-    height: 100px;
-    left: 4%;
-    top: -250%;
-    grid-column: 1/7;
+    border: 1px solid #FF4655;
+    position: absolute;
+    width: 257.5px;
+    height: 119.3px;
+    top: 690px;
+    left: 150px;
+
     z-index: 1;
 }
 
